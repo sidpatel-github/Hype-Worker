@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+     android:background="@drawable/back5"
+
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="WELCOME "
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+         <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_marginTop="60dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"> 
+
+                    <ImageButton
+                        android:id="@+id/imageButton1"
+                      android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/thing" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                       android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/chat" />
+
+                </TableRow>
+          <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                
+                
+                <ImageButton
+                      android:id="@+id/imageButton3"
+                      android:layout_marginTop="1dp"
+                      android:layout_centerHorizontal="true"
+                      android:layout_width="300dp"
+                      android:layout_height="100dp"
+                      android:src="@drawable/log" />
+                
+            </RelativeLayout>
+
+        
+     </LinearLayout>
+
+</ScrollView>

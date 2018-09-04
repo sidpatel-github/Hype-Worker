@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/back5">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <EditText
+            android:id="@+id/wr_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="156dp"
+            android:hint="USERNAME"
+            android:ems="10" >
+			
+            <requestFocus android:layout_width="match_parent" />
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/wr_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wr_username"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:hint="PASSWORD"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/wr_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wr_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:width="210dp"
+            android:text="LOGIN" />
+
+        
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            
+            android:src="@drawable/hypeworker" />
+
+</RelativeLayout>
+</RelativeLayout>
+
